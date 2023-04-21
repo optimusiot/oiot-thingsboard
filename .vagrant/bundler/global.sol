@@ -1,0 +1,1 @@
+{"dependencies":[["vagrant-disksize",["= 0.1.3"]],["net-ssh",[">= 2.6.5","< 8.0.0"]],["net-scp",[">= 1.1"]],["log4r",["~> 1.1"]],["vagrant-scp",["= 0.5.9"]]],"checksum":"9df4122d3de1b7778bf8a8c4a8bb3c858e3e901dba974255cfde11cf78e51562","vagrant_version":"2.3.4"}
