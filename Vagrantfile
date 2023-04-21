@@ -58,9 +58,6 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: <<-SHELL
     apt update --fix-missing
     apt upgrade 
-    apt install openjdk-11-jdk -y
-    apt-get install maven -y
-    apt-get install -y dbus-user-session
-    apt-get install -y uidmap
+    apt-get install maven openjdk-11-jdk dbus-user-session uidmap -y
   SHELL
 end
